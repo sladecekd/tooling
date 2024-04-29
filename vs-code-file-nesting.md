@@ -14,17 +14,15 @@ How to set it up:
 
 ``` JSON
 {
-{
  "explorer.fileNesting.enabled": true,
  "explorer.fileNesting.expand": false,
  "explorer.fileNesting.patterns": {
-    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml", // Flutter configs
-    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*", // Git files
-    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md", // Readme (.md) files
-    "*.dart": "$(capture).g.dart, $(capture).freezed.dart", // Dart language files
-    "*.env": ".env.*", // Env configs e.g. .env, .env.local
-    "package.json": "package-lock.json" // NPM config
-}
-}
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
+    "*.env": ".env.*",
+    "package.json": "package-lock.json"
+  }
 }
 ```
