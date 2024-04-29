@@ -1,3 +1,3 @@
 # Tooling / Config / Usefull scripts
 
-- `vs-code-file-nesting` - group flutter/dart config files, Readme files or git related config files for better/cleaner structure
+- [vs-code-file-nesting](https://github.com/sladecekd/tooling/blob/main/vs-code-file-nesting.md) - group flutter/dart config files, Readme files or git related config files for better/cleaner structure
