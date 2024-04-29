@@ -1,6 +1,6 @@
 # SSH from Keychain
 
-- Load the keys automatically `~/.ssh/config` 
+- Load the keys automatically `~/.ssh/config`
 
 ``` ssh
 Host *
