@@ -1,14 +1,14 @@
-# VSCode: File nesting (grouping)
+# VSCode: File Nesting (Grouping)
 
-- Flutter/Dart related generic config files (nest under `pubspec.yaml`)
-- Git related files (nest under `.gitignore`)
-- Readme files (`.md`)
+- Nest Flutter/Dart related generic config files under `pubspec.yaml`.
+- Nest Git-related files under `.gitignore`.
+- Nest Readme files (`.md`).
 
 How to set it up:
 
-- Open VS Code palete `cmd + shift + P`
-- Type `Open Settings (JSON)`
-- Insert the code below in to setting.json
+- Open VS Code palette with `Cmd + Shift + P`.
+- Type `Open Settings (JSON)`.
+- Insert the code below into `settings.json`.
 
 ``` JSON
 {
